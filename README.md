@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist svbackend/yii2-wschat
+php composer.phar require --prefer-dist werwolflg/yii2-wschat
 ```
 
 or add
 
 ```
-"svbackend/yii2-wschat": "*"
+"werwolflg/yii2-wschat": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -78,8 +78,8 @@ extension to store messages history and you need just specify connection in `con
         ```php
         namespace app\commands;
 
-        use svbackend\wschat\components\Chat;
-        use svbackend\wschat\components\ChatManager;
+        use werwolflg\wschat\components\Chat;
+        use werwolflg\wschat\components\ChatManager;
         use Ratchet\Server\IoServer;
         use Ratchet\Http\HttpServer;
         use Ratchet\WebSocket\WsServer;
