@@ -1,8 +1,8 @@
 <?php
-namespace svbackend\wschat\components;
+namespace werwolflg\wschat\components;
 
 use Yii;
-use svbackend\wschat\collections\History;
+use werwolflg\wschat\collections\History;
 
 /**
  * Class ChatManager
@@ -74,7 +74,7 @@ class ChatManager
      * @access public
      * @param $chatId
      * @param $rid
-     * @return \svbackend\wschat\components\ChatRoom|null
+     * @return \werwolflg\wschat\components\ChatRoom|null
      */
     public function findChat($chatId, $rid)
     {
@@ -136,8 +136,8 @@ class ChatManager
      * Store chat message
      *
      * @access public
-     * @param \svbackend\wschat\components\User $user
-     * @param \svbackend\wschat\components\ChatRoom $chat
+     * @param \werwolflg\wschat\components\User $user
+     * @param \werwolflg\wschat\components\ChatRoom $chat
      * @param string $message
      */
     public function storeMessage(User $user, ChatRoom $chat, $message)
