@@ -1,5 +1,5 @@
 <?php
-namespace svbackend\wschat\components;
+namespace werwolflg\wschat\components;
 
 use yii;
 use yii\db\Query;
@@ -9,7 +9,7 @@ use yii\db\Exception;
  * Class DbStorage
  *
  * This class is database storage implementation for chat messages storing
- * @package svbackend\wschat\components
+ * @package werwolflg\wschat\components
  */
 class DbStorage extends AbstractStorage
 {
