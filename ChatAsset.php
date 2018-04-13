@@ -1,11 +1,11 @@
 <?php
-namespace svbackend\wschat;
+namespace werwolflg\wschat;
 
 use yii\web\AssetBundle;
 
 /**
  * Class ChatAsset
- * @package svbackend\wschat
+ * @package werwolflg\wschat
  */
 class ChatAsset extends AssetBundle
 {
@@ -33,7 +33,7 @@ class ChatAsset extends AssetBundle
     ];
 
     public $depends = [
-        'svbackend\wschat\ChatLibAsset'
+        'werwolflg\wschat\ChatLibAsset'
     ];
 
     /**
