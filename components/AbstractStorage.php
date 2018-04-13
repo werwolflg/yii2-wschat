@@ -8,7 +8,7 @@ use werwolflg\wschat\collections\History;
  * Class AbstractStorage
  *
  * Base class to create concrete implementer of message storing
- * @package svbackend\wschat\components
+ * @package werwolflg\wschat\components
  */
 abstract class AbstractStorage
 {
@@ -18,7 +18,7 @@ abstract class AbstractStorage
      * @access public
      * @static
      * @param string $storage default null
-     * @return \svbackend\wschat\components\AbstractStorage
+     * @return \werwolflg\wschat\components\AbstractStorage
      */
     public static function factory($storage = null)
     {
