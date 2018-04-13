@@ -6,7 +6,7 @@ use werwolflg\wschat\collections\History;
 
 /**
  * Class ChatManager
- * @package \svbackend\wschat\components
+ * @package \werwolflg\wschat\components
  */
 class ChatManager
 {
