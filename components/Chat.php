@@ -8,13 +8,13 @@ use Ratchet\MessageComponentInterface;
 
 /**
  * Class Chat
- * @package \svbackend\wschat\components
+ * @package \werwolflg\wschat\components
  */
 class Chat implements MessageComponentInterface
 {
     /** @var ConnectionInterface[] */
     private $clients = [];
-    /** @var \svbackend\wschat\components\ChatManager */
+    /** @var \werwolflg\wschat\components\ChatManager */
     private $cm = null;
 
     /**
@@ -25,7 +25,7 @@ class Chat implements MessageComponentInterface
     ];
 
     /**
-     * @param \svbackend\wschat\components\ChatManager $cm
+     * @param \werwolflg\wschat\components\ChatManager $cm
      */
     public function __construct(ChatManager $cm)
     {
