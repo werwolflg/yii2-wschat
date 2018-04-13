@@ -1,5 +1,5 @@
 <?php
-namespace svbackend\wschat\components;
+namespace werwolflg\wschat\components;
 
 use Yii;
 use yii\helpers\Json;
