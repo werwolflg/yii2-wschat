@@ -1,5 +1,5 @@
 {
-    "name": "svbackend/yii2-wschat",
+    "name": "werwolflg/yii2-wschat",
     "description": "Private chat based on web sockets and ratchet php (Yii2)",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","backbone","ratchet","websocket","chat"],
@@ -11,6 +11,9 @@
         },
         {
             "name": "Valentin Saik"
+        },
+        {
+            "name": "Sergey F"
         }
     ],
     "require": {
