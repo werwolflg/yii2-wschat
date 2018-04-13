@@ -1,5 +1,5 @@
 <?php
-namespace svbackend\wschat\collections;
+namespace werwolflg\wschat\collections;
 
 use Yii;
 use yii\mongodb\Exception;
@@ -8,7 +8,7 @@ use svbackend\wschat\components\AbstractStorage;
 
 /**
  * Class History
- * @package svbackend\wschat\collections
+ * @package werwolflg\wschat\collections
  * @property \MongoId $_id
  * @property string $chat_id
  * @property string $chat_title
