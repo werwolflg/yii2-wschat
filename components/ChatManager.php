@@ -10,7 +10,7 @@ use werwolflg\wschat\collections\History;
  */
 class ChatManager
 {
-    /** @var \svbackend\wschat\components\User[] */
+    /** @var \werwolflg\wschat\components\User[] */
     private $users = [];
     /** @var string a namespace of class to get user instance */
     public $userClassName = null;
