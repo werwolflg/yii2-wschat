@@ -1,12 +1,12 @@
 <?php
-namespace svbackend\wschat\components;
+namespace werwolflg\wschat\components;
 
 use Yii;
 use yii\base\InvalidParamException;
 
 /**
  * Class User
- * @package \svbackend\wschat\components
+ * @package \werwolflg\wschat\components
  *
  * @property mixed $id
  * @property string $username
@@ -21,7 +21,7 @@ class User
     public $avatar_32;
 
     private $rid;
-    /** @var \svbackend\wschat\components\ChatRoom $chat */
+    /** @var \werwolflg\wschat\components\ChatRoom $chat */
     private $chat;
     /** @var string */
     private $modelClassName = null;
@@ -116,7 +116,7 @@ class User
      * Get user chat room
      *
      * @access public
-     * @return \svbackend\wschat\components\ChatRoom
+     * @return \werwolflg\wschat\components\ChatRoom
      */
     public function getChat()
     {
@@ -127,7 +127,7 @@ class User
      * Set chat room for user
      *
      * @access public
-     * @param \svbackend\wschat\components\ChatRoom $chat
+     * @param \werwolflg\wschat\components\ChatRoom $chat
      * @return void
      */
     public function setChat(ChatRoom $chat)
