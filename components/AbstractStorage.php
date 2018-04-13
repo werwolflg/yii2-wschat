@@ -1,8 +1,8 @@
 <?php
-namespace svbackend\wschat\components;
+namespace werwolflg\wschat\components;
 
 use Yii;
-use svbackend\wschat\collections\History;
+use werwolflg\wschat\collections\History;
 
 /**
  * Class AbstractStorage
